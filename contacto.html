@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertex Automozione</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Open+Sans&family=PT+Sans:wght@400;700&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="img/logoVertex.png" src="logo">
+                </a>
+
+                <nav class="navegacion">                    
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="competiciones.html" class="navegacion__enlace">Competiciones</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Vertex Automozione</h2>
+            <p class="no-margin">Disfruta de tu mejor simulador</p>
+        </div>
+    </header>
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"></div>
+
+
+<!--Usando Formspree-->        
+            <form class="formulario" id="form" action="https://formspree.io/f/mqkngbek"
+            method="POST">
+                <div class="campo">
+                    <label  class="campo__label" for="nombre">Nombre</label>
+                    <input 
+                        name="nombre"
+                        class="campo__field"
+                        type="text" 
+                        placeholder="tu nombre" 
+                        id="nombre"
+                        >
+                </div>
+
+                <div class="campo">
+                    <label  class="campo__label" for="email">E-mail</label>
+                    <input 
+                        name="email"
+                        class="campo__field"
+                        type="email" 
+                        placeholder="tu e-mail" 
+                        id="email"
+                        >
+                </div>
+
+                <div class="campo">
+                    <label  class="campo__label" for="telefono">Telefono</label>
+                    <input 
+                        name="telefono"
+                        class="campo__field"
+                        type="tel" 
+                        placeholder="tu telefono" 
+                        id="telefono"
+                        >
+                </div>
+
+                <div class="campo">
+                    <label  class="campo__label" for="asunto">Asunto</label>
+                    <input 
+                        name="asunto"
+                        class="campo__field"
+                        type="text" 
+                        placeholder="Asunto del mensaje" 
+                        id="asunto"
+                        >
+                </div>
+
+                <div class="campo">
+                    <label  class="campo__label" for="mensaje">Mensaje</label>
+                    <textarea 
+                        name="mensaje"
+                        class="campo__field campo__field--textarea"
+                        id="mensaje" 
+                        >
+                    </textarea>
+                </div>
+
+                <div class="campo">
+                    <input type="submit" value="enviar" class="boton boton--primario">
+                </div>
+            </form>
+
+       
+
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="img/logoVertex.png" src="logo">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="competiciones.html" class="navegacion__enlace">Competiciones</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+   
+    
+</body>
+</html>
