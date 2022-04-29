@@ -216,8 +216,8 @@ img {
     .contacto-bg{
         background-image: url(/img/img4.jpg);
         height: 40rem;
-        background-size: cover;
-        background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 }
 
@@ -283,4 +283,8 @@ img {
     .nosotros__imagen__inverso{
         grid-column: 1/2;
     }
+}
+
+iframe{
+    max-width: 95%;
 }
