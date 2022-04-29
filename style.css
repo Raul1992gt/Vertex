@@ -203,6 +203,11 @@ img {
 }
 
 /* CONTACTO */
+@media (min-width: 768px) {
+    .contacto-bg{
+        background-image: url(/img/im4.jpg);
+    }
+}
 
 .contacto-bg{
     background-image: url(/img/img7.jpg);
