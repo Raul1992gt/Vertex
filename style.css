@@ -215,6 +215,9 @@ img {
 @media (min-width: 768px) {
     .contacto-bg{
         background-image: url(/img/img4.jpg);
+        height: 40rem;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
