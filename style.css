@@ -205,7 +205,7 @@ img {
 /* CONTACTO */
 
 .contacto-bg{
-    background-image: url(/img/img4.jpg);
+    background-image: url(/img/img7.jpg);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ img {
 }
 
 .campo__label{
-    flex: 0 0 9rem;
+    flex: 0 0 6rem;
     text-align: right;
 }
 
@@ -238,7 +238,6 @@ img {
 
 .campo__field--textarea{
     height: 20rem;
-
 }
 
 /* NOSOTROS */
