@@ -4,3 +4,25 @@ Formspree
 
 rgarciat94@gmail.com 
 135246Raul.
+
+Cambiar correo destino formulario
+
+
+
+------------------- Añadir ------------------
+
+En competiciones: añadir resultados (json del servidor)
+
+Quitar cursos pagina princial, añadir a cursos, añadir redes sociales, ir a contacto
+
+Campeonato quitar de lista de cursos
+
+añadir curso introdución simrace /// También realizable con VR
+añadir curso introdución reglaes
+añadir horas 5h a todos menos el introdución a sim race 8h
+
+Fotos en nuestras instalaciones en un div que pasen las fotos.
+
+
+
+

@@ -288,3 +288,13 @@ img {
 iframe{
     max-width: 95%;
 }
+
+.iconoRRSS{
+    max-width: 10rem;
+    padding: 2rem;
+}
+
+.widget-curso__label-rrss{
+    display: flex;
+    justify-content: space-between;
+}
